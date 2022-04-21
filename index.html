@@ -18,25 +18,26 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">AD</a>
+            <div class="container px-3 px-md-3 px-lg-3">
+                <a class="navbar-brand" href="#page-top"><img class="logotipo" src="./assets/img/logotipo.png" alt=""></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#calendar">Agenda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li> 
+                        <li class="nav-item"><a class="nav-link" href="#donation">Doações</a></li> 
                         <li class="nav-item"><a class="nav-link" href="#gallery">Galeria</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contactos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#calendar">Agenda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contanct">Contactos</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
         <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <div class="container px-5 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">Assembleia de Deus QSonho</h1>
@@ -51,7 +52,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                <h2 class="text-white mb-4">Quem somos</h2>
+                        <h2 class="text-white mb-4">Quem somos</h2>
                         <p class="text-white-50">
                             Não me envergonho do evangelho, porque é o poder de Deus para a salvação de todo aquele que crê: primeiro do judeu, depois do grego. 
                             Porque no evangelho é revelada a justiça de Deus, uma justiça que do princípio ao fim é pela fé, como está escrito: 
@@ -61,15 +62,33 @@
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
             </div>
         </section>
-        <!-- Calendar -->
-        <section class="calendar-section text-center" id="calendar">
+        <!-- Doações -->
+        <section class="other-section text-center" id="donation">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Agenda</h2>
+                    <div class="col-lg-8 pb-5">
+                        <h2 class="text-white mb-4">Doações</h2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+                        <h6 class="text-white mb-4">Ajude nossas crianças</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+                        <h6 class="text-white mb-4">Campanha 1</h4>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 pb-5">
+                        <h2 class="text-white mb-4">Campo Missinário</h2>
+                        <p class="text-white-50">
+                            Não me envergonho do evangelho, porque é o poder de Deus para a salvação de todo aquele que crê: primeiro do judeu, depois do grego. 
+                            Porque no evangelho é revelada a justiça de Deus, uma justiça que do princípio ao fim é pela fé, como está escrito: 
+                            "O justo viverá pela fé".
+                        </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,7 +108,7 @@
                 </div>
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/ceia.jpeg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/cruz_bosque.jpeg" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -119,61 +138,32 @@
                 </div>
             </div>
         </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
+        <!-- Calendar -->
+        <section class="calendar-section" id="calendar">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
+                    <div class="col-md-10 col-lg-12 mx-auto text-center">
+                        <i class="far fa-calendar fa-2x text-white"></i>
+                        <h2 class="text-white mb-5">Agenda do Mês</h2>
+                        <div class="responsiveCal">
+                            <iframe class="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%234d4d4d&ctz=America%2FSao_Paulo&showTitle=0&showPrint=0&showTabs=0&showTz=0&showCalendars=0&showDate=1&showNav=1&src=Y2xhdWRpbmVpYmxhY2syQGdtYWlsLmNvbQ&src=cHQuYnJhemlsaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23AD1457&color=%230B8043" style="border-width:0" scrolling="no" frameborder="0"></iframe>
+                        </div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Contact-->
-        <section class="contact-section bg-black">
+        <section class="contact-section bg-black" id="contanct">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
+                                <h4 class="text-uppercase m-0">Endereço</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <div class="small text-black-50">Av. dos Bosques, 1885 - São Sebastiao, São José dos Pinhais - PR, 83075-180.</div>
                             </div>
                         </div>
                     </div>
@@ -181,7 +171,7 @@
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
+                                <h4 class="text-uppercase m-0">Email Para Contato</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
                             </div>
@@ -191,8 +181,9 @@
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <h4 class="text-uppercase m-0">Telefone(s)</h4>
                                 <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">+1 (555) 902-8832</div>
                                 <div class="small text-black-50">+1 (555) 902-8832</div>
                             </div>
                         </div>
@@ -201,12 +192,12 @@
                 <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                     <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2022</div></footer>
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">By Claudinei Casa &copy; 2022</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

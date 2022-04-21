@@ -126,7 +126,7 @@ h1,
 
 h1,
 .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(1.8rem + 1.5vw);
 }
 
 @media (min-width: 1200px) {
@@ -139,7 +139,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.7rem + 1vw);
 }
 
 @media (min-width: 1200px) {
@@ -12497,14 +12497,13 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: #64a19d;
 }
 
 #mainNav .navbar-toggler {
-  font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #fff;
+  border: 0.5px solid #64a19d;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -12512,8 +12511,6 @@ body {
 }
 
 #mainNav .navbar-brand {
-  color: #000;
-  font-weight: 700;
   padding: 0.9rem 0;
 }
 
@@ -12558,7 +12555,7 @@ body {
   }
 
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #64a19d;
   }
 
   #mainNav.navbar-shrink .navbar-brand {
@@ -12572,17 +12569,17 @@ body {
   }
 
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #fff;
   }
 
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #fff;
   }
 
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #fff;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #fff;
   }
 }
 
@@ -12613,9 +12610,9 @@ body {
 .masthead .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
-  line-height: 2.5rem;
+  line-height: 2.8rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -12656,6 +12653,21 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+
+  .masthead h1,
+  .masthead .h1 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  .masthead h2,
+  .masthead .h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+  }
+}
+
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
@@ -12665,17 +12677,17 @@ body {
   margin-bottom: 5rem;
 }
 
-.calendar-section {
+.other-section {
   padding-top: 5rem;
   background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.8) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 
-.calendar-section p {
+.other-section p {
   margin-bottom: 5rem;
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .projects-section .featured-text {
@@ -12706,8 +12718,8 @@ body {
   }
 }
 
-.signup-section {
-  padding: 10rem 0;
+.calendar-section {
+  padding: 5rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -12715,16 +12727,6 @@ body {
   background-size: cover;
 }
 
-.signup-section .form-signup input {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-}
 
 .contact-section {
   padding-top: 5rem;
@@ -12773,4 +12775,34 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.logotipo {
+  width: 150px;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .logotipo {
+    display: none;
+  }
+}
+
+.responsiveCal {
+
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+
+}
+
+.responsiveCal iframe {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
 }
