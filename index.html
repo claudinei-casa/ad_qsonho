@@ -166,7 +166,7 @@
                                             <td>{{month(event.start.dateTime)}}</td>
                                             <td>{{weekday(event.start.dateTime)}}</td>
                                             <td ><strong>{{ day(event.start.dateTime) }}</strong></td>
-                                            <td><a target="_blank" v-bind:href="event.htmlLink">{{event.summary}} <br /> ({{ day(event.start.dateTime, true) }} {{ hour(event.start.dateTime) }} ~ {{ hour(event.end.dateTime) }})</a></td>
+                                            <td><a target="_blank" v-bind:href="event.htmlLink">{{event.summary}} <br /> ({{ hour(event.start.dateTime) }} ~ {{ hour(event.end.dateTime) }})</a></td>
                                             <td>{{event.description}}</th>
                                             <td>{{event.status}}</th>
                                         </tr>
