@@ -12788,21 +12788,46 @@ body {
   }
 }
 
-.responsiveCal {
-
-  position: relative;
-  padding-bottom: 75%;
-  height: 0;
-  overflow: hidden;
-
+/* Calendar events style */
+.calendar-events thead {
+  font-size: 16px;
 }
 
-.responsiveCal iframe {
+.calendar-events tbody {
+  font-size: 14px;
+}
 
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.calendar-mounth {
+  font-weight: bold;
+  color: #64a19d;
+}
 
+.description-title {
+  font-size: 14px;
+}
+
+.description {
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .calendar-events thead {
+    font-size: 12px;
+  }
+
+  .calendar-events tbody {
+    font-size: 10px;
+  }
+
+  .calendar-mounth {
+    display: none;
+  }
+
+  .description-title {
+    display: none;
+  }
+
+  .description {
+    display: none;
+  }
 }
