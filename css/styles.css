@@ -12668,14 +12668,12 @@ body {
   }
 }
 
+
 .about-section {
-  padding-top: 10rem;
+  padding-top: 7rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 
-.about-section p {
-  margin-bottom: 5rem;
-}
 
 .other-section {
   padding-top: 5rem;
@@ -12683,7 +12681,7 @@ body {
 }
 
 .other-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .projects-section {
@@ -12830,4 +12828,14 @@ body {
   .description {
     display: none;
   }
+}
+
+.card {
+  border: 0;
+  border-bottom: 0.25rem solid #64a19d;
+}
+
+.img-missions {
+  max-width: 800px;
+  height: auto;
 }
